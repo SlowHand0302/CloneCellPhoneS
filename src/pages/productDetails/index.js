@@ -84,7 +84,7 @@ function ProductDetailsPage() {
                             }}
                         >
                             {indents.map((slide, index) => {
-                                return <img key={index} src={slide} alt={''} />;
+                                return <img style={{ width: '100%' }} key={index} src={slide} alt={''} />;
                             })}
                         </SlideScrollable>
 
